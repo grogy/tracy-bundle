@@ -16,10 +16,10 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('kutny_tracy');
+        $treeBuilder = new TreeBuilder('kutny_tracy');
 
-        $rootNode
+        $treeBuilder
+            ->getRootNode()
             ->children()
                 ->arrayNode('emails')
                     ->defaultValue(array())
