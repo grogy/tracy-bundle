@@ -1,9 +1,9 @@
 {
-    "name": "kutny/tracy-bundle",
+    "name": "grogy/tracy-bundle",
     "type": "symfony-bundle",
     "description": "Nette Tracy debugger for Symfony",
     "keywords": ["Debug", "Nette", "Debugging"],
-    "homepage": "https://github.com/kutny/tracy-bundle",
+    "homepage": "https://github.com/grogy/tracy-bundle",
     "license": "MIT",
     "authors": [
         {
